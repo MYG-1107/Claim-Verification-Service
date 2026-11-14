@@ -208,6 +208,11 @@ tempCodeRunnerFile.py
 # Ruff stuff:
 .ruff_cache/
 
+# Local vector database
+data/chroma_db/
+data/*
+!data/.gitkeep
+
 # PyPI configuration file
 .pypirc
 
